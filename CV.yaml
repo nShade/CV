@@ -18,12 +18,12 @@ pageSetup:
   height: null
   margin-bottom: 1.5cm
   margin-gutter: 0cm
-  margin-left: 1.8cm
-  margin-right: 1.8cm
-  margin-top: 2cm
+  margin-left: 1.5cm
+  margin-right: 1.5cm
+  margin-top: 1.5cm
   size: A4
-  spacing-footer: 5mm
-  spacing-header: 5mm
+  spacing-footer: 0mm
+  spacing-header: 0mm
   width: null
 pageTemplates:
   mainPage:
@@ -160,18 +160,18 @@ styles:
         - 0
       - - -1
         - -1
-      - TOP
-    - - RIGHTPADDING
+      - CENTER
+    - - LEFTPADDING
       - - 0
         - 0
       - - 1
         - -1
       - 0
-    spaceAfter: 10
+    spaceAfter: 8
     parent: bodytext
   bullet-list-item:
     parent: bodytext
-    spaceBefore: 2
+    spaceBefore: 0
   caution:
     parent: admonition
   caution-heading:
@@ -330,13 +330,12 @@ styles:
   heading:
     keepWithNext: true
     parent: normal
-    spaceAfter: 6
-    spaceBefore: 12
-    fontName: fontSerif
+    fontName: fontSans
     textColor: "#222222"
   heading1:
-    fontSize: 175%
+    fontSize: 140%
     parent: heading
+    fontName: fontSansBold
   heading2:
     fontSize: 150%
     parent: heading
@@ -635,14 +634,14 @@ styles:
     spaceBefore: 12
   table:
     parent: normal
-    alignment: TA_CENTER
+    alignment: TA_LEFT
     commands:
     - - VALIGN
       - - 0
         - 0
       - - -1
         - -1
-      - TOP
+      - CENTER
     - - INNERGRID
       - - 0
         - 0
@@ -684,11 +683,9 @@ styles:
   tip-heading:
     parent: admonition-heading
   title:
-    alignment: TA_CENTER
-    fontSize: 200%
-    keepWithNext: false
+    alignment: TA_LEFT
+    fontSize: 240%
     parent: heading
-    spaceAfter: 36
   title-reference:
     fontName: fontSansItalic
     parent: normal
@@ -748,7 +745,9 @@ styles:
     parent: admonition-heading
 
   position:
-    parent: heading4
+    parent: normal
+    fontSize: 120%
+    fontName: fontSansBold
 
   company:
     parent: normal
@@ -756,6 +755,8 @@ styles:
 
   daterange:
     parent: normal
+    fontSize: 80%
+    textColor: gray
 
   positiondescription:
     parent: normal

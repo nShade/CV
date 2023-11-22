@@ -1,5 +1,5 @@
 Ilya Karpeev
-************
+------------
 
 .. |iconmail| image:: icons/icons8-email-24.png
    :height: 32px
@@ -21,22 +21,24 @@ Ilya Karpeev
    :width: 32px
    :align: middle
 
-+--------------------------------------------+------------------------------------+
-|  |iconmail| karpeev@fastmail.com           | |inconphone| +4917643606868        |
-+--------------------------------------------+------------------------------------+
-| |inconlinkedin| `linkedin.com/in/karpeev`_ | |incongithub| `github.com/nShade`_ |
-+--------------------------------------------+------------------------------------+
+.. list-table::
+
+    * - |iconmail| karpeev@fastmail.com
+      - |inconphone| +4917643606868
+    * - |inconlinkedin| `linkedin.com/in/karpeev`_
+      - |incongithub| `github.com/nShade`_
 
 .. _linkedin.com/in/karpeev: https://linkedin.com/in/karpeev
 .. _github.com/nShade: https://github.com/nShade
 
 Summary
--------
+~~~~~~~
+
 Keen on searching for simple and reliable solutions for complicated problems. I am good at finding common ground with
 different people. Building right test processes and test automation solutions is my passion.
 
 Experience
-----------
+~~~~~~~~~~
 
 .. jobentry:: patronus
     :icon: icons/patronus.png
@@ -154,7 +156,7 @@ Experience
 
 
 Education
----------
+~~~~~~~~~
 
 .. |ssulogo| image:: icons/SSU.png
    :height: 64px
@@ -174,17 +176,39 @@ Specialist, radiophysics and electronics
 
 
 Skills
-------
+~~~~~~
 
-Software Quality Management
-Python
-NodeJS
-Selenium
-pytest
-Test Automation
-Performance Testing
-Mobile Testing
-Backend Testing
-Leadership
+.. list-table::
+    :widths: 20 20 30
 
-Icons by https://icons8.com/
+    * - * Python
+        * NodeJS
+        * pytest
+        * RobotFramework
+        * Selenium
+        * Cypress
+        * Gatling
+        * Locust
+
+      - * Git
+        * Jenkins
+        * Github Actions
+        * AWS
+        * PostgreSQL
+        * Redis
+
+      - * Software Quality Management
+        * Leadership
+        * Scrum
+        * Kanban
+        * Test Automation
+        * Performance Testing
+        * Backend Testing
+        * Mobile Testing
+        * Frontend Testing
+
+
+.. class::
+    :textColor: gray
+
+    Icons by https://icons8.com/

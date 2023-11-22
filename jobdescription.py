@@ -52,7 +52,7 @@ class JobEntryHandler(genelements.NodeHandler, JobEntryNode):
             publish_doctree(
                 f".. class:: positiondescription\n"
                 f"**Responsibilities**:\n\n"
-                f"{node['responsibilities']}\n"
+                f"{node['responsibilities']}\n\n"
                 f"**Achievements:**\n\n"
                 f"{node['achievements']}\n",
                 source_path='',
@@ -66,7 +66,8 @@ class JobEntryHandler(genelements.NodeHandler, JobEntryNode):
                   ['', daterange],
                   ['', description]],
             colWidths=(32, 600),
-            hAlign='LEFT'
+            hAlign='LEFT',
+            vAlign='CENTER'
         )
         return [t]
 
