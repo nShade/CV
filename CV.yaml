@@ -149,7 +149,7 @@ styles:
     alignment: TA_JUSTIFY
     hyphenation: true
     parent: normal
-    spaceBefore: 6
+    spaceBefore: 0
   bullet-list:
     colWidths:
     - '20'
@@ -167,6 +167,7 @@ styles:
       - - 1
         - -1
       - 0
+    spaceAfter: 10
     parent: bodytext
   bullet-list-item:
     parent: bodytext
@@ -748,7 +749,6 @@ styles:
 
   position:
     parent: heading4
-    leftIndent: 19
 
   company:
     parent: normal
@@ -756,7 +756,6 @@ styles:
 
   daterange:
     parent: normal
-    leftIndent: 19
 
   positiondescription:
     parent: normal
