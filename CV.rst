@@ -131,8 +131,8 @@ Experience
     :icon: icons/mirantis.png
     :position: Senior software test automation engineer
     :company: Mirantis
-    :start: Jul 2009
-    :end: May 2008
+    :start: May 2008
+    :end: Jul 2009
     :responsibilities:
         * Testing of internal bank systems
         * Automated functional and load test development, test tools development

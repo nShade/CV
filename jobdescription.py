@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from docutils.core import publish_doctree
 from docutils.nodes import General, Element
@@ -33,7 +33,32 @@ class JobEtryDirective(Directive):
         start = self.options.get('start', None)
         end = self.options.get('end', 'Present')
 
-        node['daterange'] = f'{start} - {end}'
+        startdate = datetime.strptime(start, '%b %Y')
+        enddate = datetime.now() if end == 'Present' else datetime.strptime(end, '%b %Y')
+        duration = ''
+        years = enddate.year - startdate.year
+
+        months = enddate.month - startdate.month + 1
+
+        if months < 0:
+            months = 12 + months
+            years -= 1
+
+        if years == 1:
+            duration += f'{years} year'
+        elif years > 1:
+            duration += f'{years} years'
+
+        if months != 0:
+            if duration != '':
+                duration += ' '
+
+        if months == 1:
+            duration += f'{months} month'
+        elif months > 1:
+            duration += f'{years} months'
+
+        node['daterange'] = f'{start} - {end} ({duration})'
         node['responsibilities'] = self.options.get('responsibilities', None)
         node['achievements'] = self.options.get('achievements', None)
         return [node]
