@@ -158,22 +158,27 @@ Experience
 Education
 ~~~~~~~~~
 
-.. |ssulogo| image:: icons/SSU.png
-   :height: 64px
-   :width: 64px
+.. list-table::
+    :widths: 6 94
+    :align: left
 
-.. class:: company
+    * - .. image:: icons/SSU.png
+               :height: 64px
+               :width: 64px
 
-|ssulogo| Saratov State University named after N.G.Chernyshevsky
+      - .. class:: company
 
-.. class:: position
+            Saratov State University named after N.G.Chernyshevsky
 
-Specialist, radiophysics and electronics
+    * -
+      - .. class:: position
 
-.. class:: daterange
+            Specialist, radiophysics and electronics
 
-2001 – 2006
+    * -
+      - .. class:: daterange
 
+            2001 – 2006
 
 Skills
 ~~~~~~
