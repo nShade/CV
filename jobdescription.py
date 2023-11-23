@@ -90,7 +90,7 @@ class JobEntryHandler(genelements.NodeHandler, JobEntryNode):
                   ['', company],
                   ['', daterange],
                   ['', description]],
-            colWidths=(32, 600),
+            colWidths=(32, None),
             hAlign='LEFT',
             vAlign='CENTER'
         )

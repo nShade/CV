@@ -686,6 +686,7 @@ styles:
     alignment: TA_LEFT
     fontSize: 240%
     parent: heading
+    spaceAfter: 10
   title-reference:
     fontName: fontSansItalic
     parent: normal
@@ -760,3 +761,13 @@ styles:
 
   positiondescription:
     parent: normal
+
+  identity:
+    parent: normal
+    fontSize: 85%
+
+  footnote:
+    parent: normal
+    fontSize: 85%
+    textColor: gray
+    alignment: TA_RIGHT

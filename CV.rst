@@ -1,6 +1,14 @@
 Ilya Karpeev
 ------------
 
+.. class:: identity
+
+QA Engineer, test automation expert
+
+.. raw:: pdf
+
+    Spacer 0, 10
+
 .. |iconmail| image:: icons/icons8-email-24.png
    :height: 32px
    :width: 32px
@@ -37,6 +45,41 @@ Summary
 Keen on searching for simple and reliable solutions for complicated problems. I am good at finding common ground with
 different people. Building right test processes and test automation solutions is my passion.
 
+Skills
+~~~~~~
+
+.. list-table::
+    :widths: 40 30 30
+
+    * - * Software Quality Management
+        * Leadership
+        * Scrum
+        * Kanban
+        * Test Automation
+        * Performance Testing
+        * Backend Testing
+        * Mobile Testing
+        * Frontend Testing
+
+      - * Python
+        * Java
+        * JavaScript
+        * pytest
+        * TestNG
+        * RobotFramework
+        * Selenium
+        * Cypress
+        * Gatling
+        * Locust
+
+      - * Git
+        * Jenkins
+        * Github Actions
+        * Docker
+        * AWS
+        * SQL (PostgreSQL)
+        * Redis
+
 Experience
 ~~~~~~~~~~
 
@@ -47,7 +90,7 @@ Experience
     :start: Feb 2023
     :responsibilities:
         * Ensure software quality across development, delivery, and post-delivery phases
-        * Develop test automation tools for backend, web, Android, iOS and Wear OS apps.
+        * Develop test automation tools for backend, web, Android, iOS and Wear OS apps
         * Define and implement test strategy
     :achievements:
         * Created tooling for test automation for all components of the Patronus software from scratch
@@ -76,7 +119,7 @@ Experience
     :end: Dec 2020
     :responsibilities:
         * Owning the roadmap of test instruments and infrastructure
-        * Coordinating efforts of testing of the relayr cloud platform
+        * Coordinating efforts of testing of the relayr cloud IoT platform
         * Managing QA Engineers in Berlin office
     :achievements:
         * Refactoring of test framework that simplified and sped up writing tests and maintenance
@@ -89,7 +132,7 @@ Experience
     :start: May 2016
     :end: Aug 2018
     :responsibilities:
-        * Testing microservice backend of the relayr cloud platform.
+        * Testing microservice backend of the relayr cloud IoT platform.
         * Developing and maintaining automated API tests and testing framework using Python with py.test
         * Supporting developers in the team with writing tests for their code
     :achievements:
@@ -124,7 +167,8 @@ Experience
         * Management of part of the testing team
     :achievements:
         * Developed automated tests for API on SHAW project
-        * Developed test plan format that allowed to reduce amount of manual regression tests and time of full regression manual test run and track test coverage
+        * Developed test plan format that allowed to reduce amount of manual regression tests and time of full
+          regression manual test run and track test coverage
         * Developed automated tests for migration project of SHAW customer database and tested it
 
 .. jobentry:: mirantis
@@ -139,7 +183,7 @@ Experience
     :achievements:
         * Created load test suite and functional test suite for a new bank system
         * Automated tests for an old bank client app with console interface
-        * Created a tool for creating prerequisites for manual tests, which sped up regression testing by 20%
+        * Created a tool for setting prerequisites for manual tests, which sped up regression testing by 20%
 
 .. jobentry:: uniqueics
     :icon: icons/icons8-company-24.png
@@ -153,7 +197,6 @@ Experience
         * Unit tests development (C++) for application core library
     :achievements:
         * Participated in development of automated testing framework and test development
-
 
 Education
 ~~~~~~~~~
@@ -180,40 +223,11 @@ Education
 
             2001 – 2006
 
-Skills
-~~~~~~
 
-.. list-table::
-    :widths: 20 20 30
+.. raw:: pdf
 
-    * - * Python
-        * NodeJS
-        * pytest
-        * RobotFramework
-        * Selenium
-        * Cypress
-        * Gatling
-        * Locust
+    Spacer 0, 300
 
-      - * Git
-        * Jenkins
-        * Github Actions
-        * AWS
-        * PostgreSQL
-        * Redis
+.. class:: footnote
 
-      - * Software Quality Management
-        * Leadership
-        * Scrum
-        * Kanban
-        * Test Automation
-        * Performance Testing
-        * Backend Testing
-        * Mobile Testing
-        * Frontend Testing
-
-
-.. class::
-    :textColor: gray
-
-    Icons by https://icons8.com/
+Icons by https://icons8.com/
