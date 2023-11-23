@@ -56,7 +56,7 @@ class JobEtryDirective(Directive):
         if months == 1:
             duration += f'{months} month'
         elif months > 1:
-            duration += f'{years} months'
+            duration += f'{months} months'
 
         node['daterange'] = f'{start} - {end} ({duration})'
         node['responsibilities'] = self.options.get('responsibilities', None)
