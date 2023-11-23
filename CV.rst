@@ -86,7 +86,7 @@ Experience
 .. jobentry:: patronus
     :icon: icons/patronus.png
     :position: Senior QA Engineer
-    :company: Patronus Group
+    :company: `Patronus Group <https://www.patronus-group.com/>`_
     :start: Feb 2023
     :responsibilities:
         * Ensure software quality across development, delivery, and post-delivery phases
@@ -100,7 +100,7 @@ Experience
 .. jobentry:: relayr-staff-qa
     :icon: icons/relayr.png
     :position: Staff QA Engineer
-    :company: relayr GmbH
+    :company: `relayr GmbH <https://www.relayr.io/>`_
     :start: Jan 2021
     :end: Jan 2023
     :responsibilities:
@@ -114,7 +114,7 @@ Experience
 .. jobentry:: relayr-qa-team-lead
     :icon: icons/relayr.png
     :position: Software QA Team Lead
-    :company: relayr GmbH
+    :company: `relayr GmbH <https://www.relayr.io/>`_
     :start: Sep 2018
     :end: Dec 2020
     :responsibilities:
@@ -128,7 +128,7 @@ Experience
 .. jobentry:: relayr-senior-qa
     :icon: icons/relayr.png
     :position: Senior QA Engineer
-    :company: relayr GmbH
+    :company: `relayr GmbH <https://www.relayr.io/>`_
     :start: May 2016
     :end: Aug 2018
     :responsibilities:
@@ -142,7 +142,7 @@ Experience
 .. jobentry:: mailru
     :icon: icons/mailru.png
     :position: Test automation engineer
-    :company: Mail.ru Group
+    :company: `Mail.ru Group <https://vk.company/en/>`_ (now VK Group)
     :start: Feb 2013
     :end: Apr 2016
     :responsibilities:
@@ -158,7 +158,7 @@ Experience
 .. jobentry:: netcracker
     :icon: icons/netcracker.png
     :position: Senior QA\TA Engineer
-    :company: Netcracker Technology
+    :company: `Netcracker Technology <https://www.netcracker.com/>`_
     :start: Sep 2009
     :end: Jan 2013
     :responsibilities:
@@ -174,7 +174,7 @@ Experience
 .. jobentry:: mirantis
     :icon: icons/mirantis.png
     :position: Senior software test automation engineer
-    :company: Mirantis
+    :company: `Mirantis <https://www.mirantis.com/>`_
     :start: May 2008
     :end: Jul 2009
     :responsibilities:

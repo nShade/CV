@@ -70,19 +70,23 @@ class JobEntryHandler(genelements.NodeHandler, JobEntryNode):
         icon = MyImage(node['icon'], width=64, height=64, client=client)
 
         position = Paragraph(node['position'], client.styles['position'])
-        company = Paragraph(node['company'], client.styles['company'])
+
+        company = client.gen_elements(
+            publish_doctree(node['company'], source_path='', settings_overrides={}),
+            style=client.styles['company']
+        )
         daterange = Paragraph(node['daterange'], client.styles['daterange'])
 
         description = client.gen_elements(
             publish_doctree(
-                f".. class:: positiondescription\n"
                 f"**Responsibilities**:\n\n"
                 f"{node['responsibilities']}\n\n"
                 f"**Achievements:**\n\n"
                 f"{node['achievements']}\n",
                 source_path='',
                 settings_overrides={},
-            )
+            ),
+            style=client.styles['positiondescription']
         )
 
         t = Table(
